@@ -1,0 +1,119 @@
+.directline-config {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  color: white;
+  max-width: 400px;
+  z-index: 10002;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.directline-config-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.directline-config-header h3 {
+  margin: 0;
+  font-size: 16px;
+  color: white;
+}
+
+.config-status {
+  font-size: 12px;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.directline-config-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.config-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.config-field label {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.config-field input {
+  padding: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 12px;
+}
+
+.config-field input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.config-field input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.config-actions {
+  margin-top: 15px;
+}
+
+.save-button,
+.clear-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: opacity 0.2s;
+}
+
+.save-button {
+  background: #4CAF50;
+  color: white;
+}
+
+.save-button:hover {
+  background: #45a049;
+}
+
+.clear-button {
+  background: #f44336;
+  color: white;
+}
+
+.clear-button:hover {
+  background: #da190b;
+}
+
+.config-info {
+  margin-top: 10px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .directline-config {
+    max-width: calc(100vw - 40px);
+    top: 10px;
+    left: 10px;
+  }
+}
+

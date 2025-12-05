@@ -1,0 +1,20 @@
+{
+  "short_name": "Sotheby's",
+  "name": "Sotheby's Virtual Concierge",
+  "icons": [
+    {
+      "src": "https://cdn.dribbble.com/userupload/34070094/file/original-fee6cc9ebd56d94554c31ae7776bd5b4.jpg?format=webp&resize=400x300&vertical=center",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://cdn.dribbble.com/userupload/34070094/file/original-fee6cc9ebd56d94554c31ae7776bd5b4.jpg?format=webp&resize=400x300&vertical=center",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#050509",
+  "background_color": "#050509"
+}
